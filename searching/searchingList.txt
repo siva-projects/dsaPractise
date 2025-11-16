@@ -1,0 +1,87 @@
+Here is a comprehensive list of searching algorithms with their main techniques and sub-techniques for practice:
+
+### 1. Basic Searching Algorithms
+- **Linear Search**
+  - Simple scan
+  - Sentinel Linear Search
+- **Binary Search**
+  - Classic binary search on sorted arrays
+  - Finding first/last occurrence
+  - Lower bound / Upper bound
+  - Binary search on answer (search in a custom range)
+  - Search in rotated sorted array
+  - Search in 2D matrix
+  - Search with duplicates
+
+***
+
+### 2. Two-Pointer Techniques
+- Classic two-pointer for pairs or triplets
+- **Duplicate Skipping** (to avoid repeating results)
+- Sliding Window (variable size window)
+  - Fixed-size sliding window
+  - Dynamic sliding window
+  - Maximum/minimum sum subarray
+  - Longest substring with k-distinct chars
+- Meeting point / cycle detection (Floyd’s Tortoise and Hare)
+
+***
+
+### 3. Hashing Based Search
+- HashSet based membership checks
+- HashMap frequency counts
+- Two Sum pattern
+- Pattern searching with hash
+- Problems involving prefix sums/hashes
+
+***
+
+### 4. Tree and Graph Search
+- Depth First Search (DFS)
+  - Recursive DFS
+  - Iterative DFS (using stack)
+- Breadth First Search (BFS)
+  - Level order traversal
+  - Bidirectional BFS
+- Dijkstra’s algorithm (shortest path variant)
+- A* search algorithm
+
+***
+
+### 5. String Searching Algorithms
+- Naive pattern matching
+- Knuth-Morris-Pratt (KMP)
+- Rabin-Karp
+- Z Algorithm
+- Aho-Corasick (multi-pattern matching)
+- Suffix array/tree based search
+
+***
+
+### 6. Advanced Numerical and Search Techniques
+- Exponential Search
+- Jump Search
+- Interpolation Search
+- Ternary Search (for unimodal functions)
+- Fibonacci Search
+
+***
+
+### 7. Special Data Structure Based Search
+- Trie (Prefix tree) search
+- Binary Search Trees (BST) search
+- Heaps (priority queue search)
+- Searching with Backtracking (permutations, subsets)
+
+***
+
+### 8. Search with Pattern Recognition
+- Backtracking searches (puzzle solving, N-Queens)
+- Bitmasking search enhancements
+- Branch and Bound techniques
+
+***
+
+This list broadly covers fundamental and advanced searching algorithms with note on important sub-techniques such as **duplicate skipping in two pointer** methods. Practicing across these will strengthen problem-solving across domains.
+
+Let me know if you want recommended problems or detailed explanations for any category!

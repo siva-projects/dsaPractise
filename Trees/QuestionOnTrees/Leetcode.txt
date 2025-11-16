@@ -1,3 +1,15 @@
+### 4. Tree and Graph Search
+- Depth First Search (DFS)
+  - Recursive DFS
+  - Iterative DFS (using stack)
+- Breadth First Search (BFS)
+  - Level order traversal
+  - Bidirectional BFS
+- Dijkstra’s algorithm (shortest path variant)
+- A* search algorithm
+
+
+
 Question - 1
 - https://leetcode.com/problems/binary-tree-level-order-traversal/
 - navigate to above question link, and there ans can be found in the submissions..
