@@ -1,0 +1,1 @@
+-- kmp algorithm is one of the important algorithm

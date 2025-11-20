@@ -80,8 +80,320 @@ Here is a comprehensive list of searching algorithms with their main techniques 
 - Bitmasking search enhancements
 - Branch and Bound techniques
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 1. Basic Searching Algorithms  
+- Linear Search  
+  - Simple scan (
+    #27 Remove Element, 
+  #344 Reverse String, 
+  #485 Max Consecutive Ones, 
+  #1189 Maximum Number of Balloons,           
+  #1287 Element Appearing More Than 25% In Sorted Array)  ( try again )
+  - Sentinel Linear Search (conceptual, can be applied to 
+  #27 Remove Element, 
+  #283 Move Zeroes, 
+  #448 Find All Numbers Disappeared in an Array, 
+  #414 Third Maximum Number, -- solved till here ----- ( try again )
+  #832 Flipping an Image)  
+- Binary Search  
+  - Classic binary search on sorted arrays (
+    #704 Binary Search, 
+  #35 Search Insert Position, 
+  #278 First Bad Version, 
+  #33 Search in Rotated Sorted Array, 
+  #69 Sqrt(x))  
+  - Finding first/last occurrence (
+    #34 Find First and Last Position of Element in Sorted Array, 
+  #74 Search a 2D Matrix, 
+  #81 Search in Rotated Sorted Array II, 
+  #540 Single Element in a Sorted Array, 
+  #153 Find Minimum in Rotated Sorted Array)  
+  - Lower bound / Upper bound (
+    #35 Search Insert Position, 
+  #278 First Bad Version, 
+  #34 Find First and Last Position of Element in Sorted Array, 
+  #153 Find Minimum in Rotated Sorted Array, 
+  #162 Find Peak Element)  
+  - Binary search on answer (search in a custom range) (
+    #410 Split Array Largest Sum, 
+  #875 Koko Eating Bananas, 
+  #378 Kth Smallest Element in a Sorted Matrix, 
+  #704 Binary Search, 
+  #774 Minimize Max Distance to Gas Station)  
+  - Search in rotated sorted array (
+    #33 Search in Rotated Sorted Array, 
+  #81 Search in Rotated Sorted Array II, 
+  #153 Find Minimum in Rotated Sorted Array, 
+  #154 Find Minimum in Rotated Sorted Array II, 
+  #1899 Merge Triplets to Form Target Triplet)  
+  - Search in 2D matrix (
+    #74 Search a 2D Matrix, 
+  #240 Search a 2D Matrix II, 
+  #378 Kth Smallest Element in a Sorted Matrix, 
+  #1091 Shortest Path in Binary Matrix, 
+  #1631 Path With Minimum Effort)  
+  - Search with duplicates (
+    #81 Search in Rotated Sorted Array II, 
+  #154 Find Minimum in Rotated Sorted Array II, 
+  #540 Single Element in a Sorted Array, 
+  #540 Single Element in a Sorted Array, 
+  #240 Search a 2D Matrix II)  
+
 ***
 
-This list broadly covers fundamental and advanced searching algorithms with note on important sub-techniques such as **duplicate skipping in two pointer** methods. Practicing across these will strengthen problem-solving across domains.
 
-Let me know if you want recommended problems or detailed explanations for any category!
+### 2. Two-Pointer Techniques  
+- Classic two-pointer for pairs or triplets (
+  #1 Two Sum, 
+#15 3Sum, 
+#16 3Sum Closest, 
+#26 Remove Duplicates from Sorted Array, 
+#42 Trapping Rain Water)  
+- Duplicate Skipping (to avoid repeating results) (
+  #15 3Sum, 
+#26 Remove Duplicates from Sorted Array, 
+#90 Subsets II, 
+#40 Combination Sum II, 
+#47 Permutations II)  
+- Sliding Window (variable size window)  
+  - Fixed-size sliding window (
+    #438 Find All Anagrams in a String, 
+  #209 Minimum Size Subarray Sum, 
+  #76 Minimum Window Substring, 
+  #3 Longest Substring Without Repeating Characters, 
+  #1004 Max Consecutive Ones III)  
+  - Dynamic sliding window (
+    #3 Longest Substring Without Repeating Characters, 
+  #76 Minimum Window Substring, 
+  #159 Longest Substring with At Most Two Distinct Characters, 
+  #340 Longest Substring with At Most K Distinct Characters, 
+  #992 Subarrays with K Different Integers)  
+  - Maximum/minimum sum subarray (
+    #209 Minimum Size Subarray Sum, 
+  #325 Maximum Size Subarray Sum Equals k, 
+  #560 Subarray Sum Equals K, 
+  #862 Shortest Subarray with Sum at Least K, 
+  #1004 Max Consecutive Ones III)  
+  - Longest substring with k-distinct chars (
+    #340 Longest Substring with At Most K Distinct Characters, 
+  #159 Longest Substring with At Most Two Distinct Characters, 
+  #424 Longest Repeating Character Replacement, 
+  #992 Subarrays with K Different Integers, 
+  #159 Longest Substring with At Most Two Distinct Characters)  
+- Meeting point / cycle detection (Floyd's Tortoise and Hare) (
+  #142 Linked List Cycle II, 
+#287 Find the Duplicate Number, 
+#457 Circular Array Loop, 
+#141 Linked List Cycle, 
+#142 Linked List Cycle II)  
+
+***
+
+
+#
+#
+# 3. Hashing Based Search  
+- HashSet based membership checks (
+  #349 Intersection of Two Arrays, 
+#217 Contains Duplicate, 
+#202 Happy Number, 
+#771 Jewels and Stones, 
+#136 Single Number)  
+- HashMap frequency counts (
+  #560 Subarray Sum Equals K, 
+#242 Valid Anagram, 
+#383 Ransom Note, 
+#594 Longest Harmonious Subsequence, 
+#409 Longest Palindrome)  
+- Two Sum pattern (
+  #1 Two Sum, 
+#167 Two Sum II - Input Array Is Sorted, 
+#170 Two Sum III - Data structure design, 
+#454 4Sum II, 
+#15 3Sum)  
+- Pattern searching with hash (
+  #214 Shortest Palindrome, 
+#438 Find All Anagrams in a String, 
+#28 Implement strStr(), 
+#647 Palindromic Substrings (hash technique variant), 
+#13 Roman to Integer)  
+- Problems involving prefix sums/hashes (
+  #560 Subarray Sum Equals K, 
+#973 K Closest Points to Origin, 
+#437 Path Sum III, 
+#523 Continuous Subarray Sum, 
+#325 Maximum Size Subarray Sum Equals k)  
+
+***
+
+
+#
+#
+# 4. Tree and Graph Search  
+- Depth First Search (DFS)  
+  - Recursive DFS (
+    #100 Same Tree, 
+  #104 Maximum Depth of Binary Tree, 
+  #110 Balanced Binary Tree, 
+  #226 Invert Binary Tree, 
+  #257 Binary Tree Paths)  
+  - Iterative DFS (using stack) (
+    #144 Binary Tree Preorder Traversal, 
+  #94 Binary Tree Inorder Traversal, 
+  #145 Binary Tree Postorder Traversal, 
+  #590 N-ary Tree Postorder Traversal, 
+  #589 N-ary Tree Preorder Traversal)  
+- Breadth First Search (BFS)  
+  - Level order traversal (
+    #102 Binary Tree Level Order Traversal, 
+  #107 Binary Tree Level Order Traversal II, 
+  #199 Binary Tree Right Side View, 
+  #637 Average of Levels in Binary Tree, 
+  #314 Binary Tree Vertical Order Traversal)  
+  - Bidirectional BFS (
+    #127 Word Ladder, 
+  #126 Word Ladder II, 
+  #752 Open the Lock, 
+  #819 Most Common Word, 
+  #773 Sliding Puzzle)  
+- Dijkstra’s algorithm (shortest path variant) (
+  #743 Network Delay Time, 
+#1631 Path With Minimum Effort, 
+#778 Swim in Rising Water, 
+#505 The Maze II, 
+#1631 Path With Minimum Effort)  
+- A* search algorithm (
+  #1631 Path With Minimum Effort (A* variant), 
+#505 The Maze II (A* variant), 
+#1267 Count Servers that Communicate (conceptual), 
+#1631 Path With Minimum Effort, 
+#794 Valid Tic-Tac-Toe State (conceptual))  
+
+***
+
+
+#
+#
+# 5. String Searching Algorithms  
+- Naive pattern matching (
+  #28 Implement strStr(), 
+#459 Repeated Substring Pattern, 
+#686 Repeated String Match, 
+#10 Regular Expression Matching, 
+#293 Flip Game)  
+- Knuth-Morris-Pratt (KMP) (
+  #28 Implement strStr(), 
+#214 Shortest Palindrome, 
+#139 Word Break (KMP inspired), 
+#459 Repeated Substring Pattern, 
+#686 Repeated String Match)  
+- Rabin-Karp (
+  #438 Find All Anagrams in a String (hash), 
+#28 Implement strStr(), 
+#686 Repeated String Match, 
+#10 Regular Expression Matching, 
+#139 Word Break)  
+- Z Algorithm (conceptual, no direct LeetCode problem but used in advanced string pattern matching)  
+- Aho-Corasick (multi-pattern matching) (
+  #642 Design Search Autocomplete System (conceptual), 
+#642 Design Search Autocomplete System, 
+#211 Add and Search Word - Data structure design, 
+#748 Shortest Completing Word (conceptual), 
+#288 Unique Word Abbreviation (conceptual))  
+- Suffix array/tree based search (complex, limited direct LeetCode problems; used in 
+#45 Jump Game II and other advanced string problems)  
+
+***
+
+
+#
+#
+# 6. Advanced Numerical and Search Techniques  
+- Exponential Search (
+  #69 Sqrt(x) (doubling step), 
+#367 Valid Perfect Square, 
+#367 Valid Perfect Square, 
+#375 Guess Number Higher or Lower, 
+#278 First Bad Version)  
+- Jump Search (conceptual, no direct LeetCode problems, similar to skip search)  
+- Interpolation Search (conceptual)  
+- Ternary Search (for unimodal functions) (
+  #852 Peak Index in a Mountain Array, 
+#162 Find Peak Element, 
+#875 Koko Eating Bananas (binary and ternary hybrid), 
+#410 Split Array Largest Sum (search on answer), 
+#1011 Capacity To Ship Packages Within D Days)  
+- Fibonacci Search (conceptual)  
+
+***
+
+
+#
+#
+# 7. Special Data Structure Based Search  
+- Trie (Prefix tree) search (
+  #208 Implement Trie (Prefix Tree), 
+#211 Add and Search Word - Data structure design, 
+#212 Word Search II, 
+#676 Implement Magic Dictionary, 
+#745 Prefix and Suffix Search)  
+- Binary Search Trees (BST) search (
+  #700 Search in a Binary Search Tree, 
+#98 Validate Binary Search Tree, 
+#230 Kth Smallest Element in a BST, 
+#236 Lowest Common Ancestor of a Binary Tree, 
+#235 Lowest Common Ancestor of a BST)  
+- Heaps (priority queue search) (
+  #215 Kth Largest Element in an Array, 
+#703 Kth Largest Element in a Stream, 
+#347 Top K Frequent Elements, 
+#295 Find Median from Data Stream, 
+#973 K Closest Points to Origin)  
+- Searching with Backtracking (permutations, subsets) (
+  #46 Permutations, 
+#90 Subsets II, 
+#77 Combinations, 
+#39 Combination Sum, 
+#40 Combination Sum II)  
+
+***
+
+
+#
+#
+# 8. Search with Pattern Recognition  
+- Backtracking searches (puzzle solving, N-Queens) (
+  #51 N-Queens, 
+#37 Sudoku Solver, 
+#52 N-Queens II, 
+#79 Word Search, 
+#289 Game of Life)  
+- Bitmasking search enhancements (
+  #694 Number of Distinct Islands, 
+#992 Subarrays with K Different Integers, 
+#137 Single Number II, 
+#477 Total Hamming Distance, 
+#318 Maximum Product of Word Lengths)  
+- Branch and Bound techniques (
+  #329 Longest Increasing Path in a Matrix, 
+#22 Generate Parentheses, 
+#37 Sudoku Solver, 
+#51 N-Queens, 
+#79 Word Search)  
+
+***
+
+Let me know if you want further details, links, or explanations for any specific problems.
