@@ -106,14 +106,14 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   #27 Remove Element, 
   #283 Move Zeroes, 
   #448 Find All Numbers Disappeared in an Array, 
-  #414 Third Maximum Number, -- solved till here ----- ( try again )
+  #414 Third Maximum Number, ( try again )
   #832 Flipping an Image)  
 - Binary Search  
   - Classic binary search on sorted arrays (
     #704 Binary Search, 
   #35 Search Insert Position, 
   #278 First Bad Version, 
-  #33 Search in Rotated Sorted Array, 
+  #33 Search in Rotated Sorted Array, -- solved till here -- ( try again )
   #69 Sqrt(x))  
   - Finding first/last occurrence (
     #34 Find First and Last Position of Element in Sorted Array, 
