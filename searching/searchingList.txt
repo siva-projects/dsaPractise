@@ -113,20 +113,15 @@ Here is a comprehensive list of searching algorithms with their main techniques 
     #704 Binary Search, 
   #35 Search Insert Position, 
   #278 First Bad Version, 
-  #33 Search in Rotated Sorted Array, -- solved till here -- ( try again )
+  #33 Search in Rotated Sorted Array, 
   #69 Sqrt(x))  
   - Finding first/last occurrence (
-    #34 Find First and Last Position of Element in Sorted Array, 
-  #74 Search a 2D Matrix, 
+  #34 Find First and Last Position of Element in Sorted Array,   ( try again )
+  #74 Search a 2D Matrix,  
   #81 Search in Rotated Sorted Array II, 
   #540 Single Element in a Sorted Array, 
   #153 Find Minimum in Rotated Sorted Array)  
-  - Lower bound / Upper bound (
-    #35 Search Insert Position, 
-  #278 First Bad Version, 
-  #34 Find First and Last Position of Element in Sorted Array, 
-  #153 Find Minimum in Rotated Sorted Array, 
-  #162 Find Peak Element)  
+  #162 Find Peak Element  -- solved till here --- (try again)
   - Binary search on answer (search in a custom range) (
     #410 Split Array Largest Sum, 
   #875 Koko Eating Bananas, 
@@ -136,7 +131,6 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   - Search in rotated sorted array (
     #33 Search in Rotated Sorted Array, 
   #81 Search in Rotated Sorted Array II, 
-  #153 Find Minimum in Rotated Sorted Array, 
   #154 Find Minimum in Rotated Sorted Array II, 
   #1899 Merge Triplets to Form Target Triplet)  
   - Search in 2D matrix (
