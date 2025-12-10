@@ -120,51 +120,44 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   #74 Search a 2D Matrix,  
   #81 Search in Rotated Sorted Array II, 
   #540 Single Element in a Sorted Array, 
-  #153 Find Minimum in Rotated Sorted Array)  
-  #162 Find Peak Element  -- solved till here --- (try again)
+  #162 Find Peak Element   (try again)
   - Binary search on answer (search in a custom range) (
-    #410 Split Array Largest Sum, 
-  #875 Koko Eating Bananas, 
-  #378 Kth Smallest Element in a Sorted Matrix, 
-  #704 Binary Search, 
-  #774 Minimize Max Distance to Gas Station)  
-  - Search in rotated sorted array (
-    #33 Search in Rotated Sorted Array, 
-  #81 Search in Rotated Sorted Array II, 
+    #410 Split Array Largest Sum,   ( try again )
+  #875 Koko Eating Bananas,  ( try again )
+  #2305 Fair Distribution of Cookies ( try again as this is a DFS/ Backtracking based question )
+  #1723 Find Minimum Time to Finish All Jobs ( try again as this is a DFS/ Backtracking based question )
+  #378 Kth Smallest Element in a Sorted Matrix,( try again )
+  - Search in rotated sorted array ( 
+  #153 Find Minimum in Rotated Sorted Array)
   #154 Find Minimum in Rotated Sorted Array II, 
-  #1899 Merge Triplets to Form Target Triplet)  
+  #1899 Merge Triplets to Form Target Triplet)   -- try again -- ( involves greedy algo mastery )
   - Search in 2D matrix (
     #74 Search a 2D Matrix, 
-  #240 Search a 2D Matrix II, 
-  #378 Kth Smallest Element in a Sorted Matrix, 
-  #1091 Shortest Path in Binary Matrix, 
-  #1631 Path With Minimum Effort)  
+  #240 Search a 2D Matrix II,
+  #1091 Shortest Path in Binary Matrix, ( try again ) ( involves BFS )
+  #1631 Path With Minimum Effort)   ( try again ) ( involves BFS )
   - Search with duplicates (
-    #81 Search in Rotated Sorted Array II, 
-  #154 Find Minimum in Rotated Sorted Array II, 
-  #540 Single Element in a Sorted Array, 
-  #540 Single Element in a Sorted Array, 
-  #240 Search a 2D Matrix II)  
+  #540 Single Element in a Sorted Array ( try again )
 
 ***
 
 
 ### 2. Two-Pointer Techniques  
 - Classic two-pointer for pairs or triplets (
-  #1 Two Sum, 
-#15 3Sum, 
-#16 3Sum Closest, 
-#26 Remove Duplicates from Sorted Array, 
-#42 Trapping Rain Water)  
+  #1 Two 
+#15 3Sum, Sum,  
+#16 3Sum Closest,  -- try again --
+#26 Remove Duplicates from Sorted Array,
+#42 Trapping Rain Water)  -- try again -- ( nice hard question, pure logic building )
 - Duplicate Skipping (to avoid repeating results) (
-  #15 3Sum, 
+  #15 3Sum,  
 #26 Remove Duplicates from Sorted Array, 
-#90 Subsets II, 
-#40 Combination Sum II, 
-#47 Permutations II)  
+#90 Subsets II,   ( try again )
+#40 Combination Sum II, ( try again )
+#47 Permutations II)  ( try again ) 
 - Sliding Window (variable size window)  
   - Fixed-size sliding window (
-    #438 Find All Anagrams in a String, 
+    #438 Find All Anagrams in a String, -- solved till here --- ( try again ) ( cool concept involved )
   #209 Minimum Size Subarray Sum, 
   #76 Minimum Window Substring, 
   #3 Longest Substring Without Repeating Characters, 
@@ -318,8 +311,7 @@ Here is a comprehensive list of searching algorithms with their main techniques 
 # 6. Advanced Numerical and Search Techniques  
 - Exponential Search (
   #69 Sqrt(x) (doubling step), 
-#367 Valid Perfect Square, 
-#367 Valid Perfect Square, 
+#367 Valid Perfect Square,
 #375 Guess Number Higher or Lower, 
 #278 First Bad Version)  
 - Jump Search (conceptual, no direct LeetCode problems, similar to skip search)  
@@ -389,5 +381,3 @@ Here is a comprehensive list of searching algorithms with their main techniques 
 #79 Word Search)  
 
 ***
-
-Let me know if you want further details, links, or explanations for any specific problems.

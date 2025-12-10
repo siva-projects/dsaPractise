@@ -1,0 +1,77 @@
+# Famous Greedy Algorithms & Patterns
+
+## 🎯 Core Greedy Patterns
+
+| Pattern | Famous Algorithm | Key Idea | LeetCode |
+|---------|------------------|----------|----------|
+| Interval Scheduling | Earliest Finish Time | Sort by end time | 435, 452 |
+| Huffman Coding | Min Frequency First | Priority queue | 347, 23 |
+| Fractional Knapsack | Value/Weight Ratio | Greedy by density | 455, 135 |
+| Dijkstra's | Min Distance First | Priority queue SP | Heap problems |
+| Kruskal's MST | Min Edge First | Union-find + sort | Graph greedy |
+| Prim's MST | Min Adjacent Edge | Priority queue tree | Graph greedy |
+| Activity Selection | Earliest Finish | Classic greedy | Intervals |
+| Coin Change (Greedy) | Largest Denom First | Canonical sets | Currency |
+
+## 🧠 Famous Greedy Proofs
+1. Greedy Choice Property: "Local optimum → Global optimum"
+2. Optimal Substructure: "Optimal contains optimal subsolutions" 
+3. Matroid Structure: Intervals/MSTs → greedy works
+
+## ⚡ Recognition Triggers
+- "Non-overlapping/meetings" → Interval Scheduling
+- "k smallest/largest" → Heap Greedy
+- "minimize maximum" → Binary Search + Greedy
+- "sort by ratio/end time" → Fractional Knapsack
+- "merge sorted" → Dijkstra/Huffman
+
+## 📚 Textbook Classics (CLRS Ch16)
+- Activity Selection (Theorem 16.1)
+- Fractional Knapsack
+- Huffman Codes
+- MST (Kruskal/Prim)
+
+**Most Famous for Interviews:** Interval Scheduling + Heap + Binary Search on Answer
+
+
+# Greedy Algorithms - Interview Priority Order
+
+## 🔥 Tier 1: Must Master (Weekly)
+### 1. One-Pass Greedy
+- 860. Lemonade Change
+- 134. Gas Station
+- 55. Jump Game
+- 45. Jump Game II
+- 122. Best Time to Buy and Sell Stock II
+- 53. Maximum Subarray
+
+### 2. Interval Scheduling
+- 435. Non-overlapping Intervals
+- 452. Minimum Number of Arrows to Burst Balloons
+- 56. Merge Intervals
+
+### 3. Heap/Priority Queue Greedy
+- 23. Merge k Sorted Lists
+- 347. Top K Frequent Elements
+- 621. Task Scheduler
+
+## 🟡 Tier 2: Strong Coverage (Bi-weekly)
+### 4. Binary Search on Answer
+- 875. Koko Eating Bananas
+- 410. Split Array Largest Sum
+- 1011. Capacity To Ship Packages Within D Days
+
+### 5. Fractional Knapsack/Sorting Greedy
+- 455. Assign Cookies
+- 135. Candy
+- 763. Partition Labels
+
+## 🟢 Tier 3: Nice-to-Have (Monthly)
+### 6. Monotonic Stack/Queue
+- 739. Daily Temperatures
+- 402. Remove K Digits
+- 84. Largest Rectangle in Histogram
+
+### 7. Advanced Combinatorial
+- 2305. Distribute Cookies
+- 1723. Minimum Time to Finish All Jobs

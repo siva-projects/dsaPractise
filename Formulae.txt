@@ -1,0 +1,12 @@
+## Integer Arithmetic Tricks (Short List)
+
+1. **Ceil(a/b)**: `(a + b - 1) / b`
+2. **Floor(a/b)**: `a / b`
+3. **Min(a,b)**: `(a + b - Math.abs(a - b)) / 2`
+4. **Max(a,b)**: `(a + b + Math.abs(a - b)) / 2`
+5. **Swap a↔b**: `a ^= b; b ^= a; a ^= b;`
+6. **Power of 2**: `(n & (n-1)) == 0`
+7. **Round up to m**: `(a + m - 1) / m * m`
+8. **Round down to m**: `(a / m) * m`
+9. **Safe modulo**: `(a % MOD * (b % MOD)) % MOD`
+10. **Even**: `n & 1 == 0`
