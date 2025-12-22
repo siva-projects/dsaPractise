@@ -157,27 +157,25 @@ Here is a comprehensive list of searching algorithms with their main techniques 
 #47 Permutations II)  ( try again ) 
 - Sliding Window (variable size window)  
   - Fixed-size sliding window (
-    #438 Find All Anagrams in a String, -- solved till here --- ( try again ) ( cool concept involved )
-  #209 Minimum Size Subarray Sum, 
-  #76 Minimum Window Substring, 
-  #3 Longest Substring Without Repeating Characters, 
-  #1004 Max Consecutive Ones III)  
+    #438 Find All Anagrams in a String, ( try again ) ( cool concept involved )
+  #209 Minimum Size Subarray Sum,
+  #3 Longest Substring Without Repeating Characters,  ---  ( try again )
+  #1004 Max Consecutive Ones III)  -- ( try again ) 
   - Dynamic sliding window (
-    #3 Longest Substring Without Repeating Characters, 
-  #76 Minimum Window Substring, 
-  #159 Longest Substring with At Most Two Distinct Characters, 
-  #340 Longest Substring with At Most K Distinct Characters, 
-  #992 Subarrays with K Different Integers)  
+  #76 Minimum Window Substring, ( try again ) 
+  #159 Longest Substring with At Most Two Distinct Characters, -- premium required --
+  #340 Longest Substring with At Most K Distinct Characters, -- premium required --
+  #992 Subarrays with K Different Integers) ( try again ) 
   - Maximum/minimum sum subarray (
-    #209 Minimum Size Subarray Sum, 
-  #325 Maximum Size Subarray Sum Equals k, 
-  #560 Subarray Sum Equals K, 
-  #862 Shortest Subarray with Sum at Least K, 
-  #1004 Max Consecutive Ones III)  
+    #209 Minimum Size Subarray Sum,
+  #325 Maximum Size Subarray Sum Equals k, -- try again --  
+  #560 Subarray Sum Equals K, -- try again --
+  #862 Shortest Subarray with Sum at Least K, -- try again -- deque involved not hashmap or prefix sum
+  #1004 Max Consecutive Ones III)  solved till here
   - Longest substring with k-distinct chars (
     #340 Longest Substring with At Most K Distinct Characters, 
   #159 Longest Substring with At Most Two Distinct Characters, 
-  #424 Longest Repeating Character Replacement, 
+  #424 Longest Repeating Character Replacement, -- TRY AGAIN -- 
   #992 Subarrays with K Different Integers, 
   #159 Longest Substring with At Most Two Distinct Characters)  
 - Meeting point / cycle detection (Floyd's Tortoise and Hare) (
