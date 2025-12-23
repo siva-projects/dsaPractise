@@ -171,19 +171,19 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   #325 Maximum Size Subarray Sum Equals k, -- try again --  
   #560 Subarray Sum Equals K, -- try again --
   #862 Shortest Subarray with Sum at Least K, -- try again -- deque involved not hashmap or prefix sum
-  #1004 Max Consecutive Ones III)  solved till here
+  #1004 Max Consecutive Ones III) 
   - Longest substring with k-distinct chars (
     #340 Longest Substring with At Most K Distinct Characters, 
-  #159 Longest Substring with At Most Two Distinct Characters, 
+  #159 Longest Substring with At Most Two Distinct Characters, -- premium required --
   #424 Longest Repeating Character Replacement, -- TRY AGAIN -- 
   #992 Subarrays with K Different Integers, ( try again )
-  #159 Longest Substring with At Most Two Distinct Characters)  
+  #159 Longest Substring with At Most Two Distinct Characters)  -- premium required --
 ***
 *** Linked List questions 
 
 [206] Reverse Linked List (Easy) - The "Hello World" of Linked Lists.
 [21] Merge Two Sorted Lists (Easy) - Classic use of a dummy node to build a new list.
-[203] Remove Linked List Elements (Easy) - Practice traversing and deleting nodes.
+[203] Remove Linked List Elements (Easy) - Practice traversing and deleting nodes.  
 [83] Remove Duplicates from Sorted List (Easy) - Simple pointer manipulation.
 
 2. Fast & Slow Pointers (The Runner Technique)
@@ -191,7 +191,7 @@ Used for cycle detection and finding middle elements without knowing the length.
 [141] Linked List Cycle (Easy) - Standard Floyd’s Cycle-Finding Algorithm.
 [876] Middle of the Linked List (Easy) - Move one pointer 2x speed, one 1x speed.
 [234] Palindrome Linked List (Easy) - Combines finding the middle + reversing the second half.
-[142] Linked List Cycle II (Medium) - Math-heavy; find exactly where the cycle begins.
+[142] Linked List Cycle II (Medium) - Math-heavy; find exactly where the cycle begins. -- solved till here --
 
 3. Two Pointer (N-th Node / Intersection)
 Using pointers with a fixed gap or calculating length differences.
