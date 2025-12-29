@@ -191,23 +191,24 @@ Used for cycle detection and finding middle elements without knowing the length.
 [141] Linked List Cycle (Easy) - Standard Floyd’s Cycle-Finding Algorithm.
 [876] Middle of the Linked List (Easy) - Move one pointer 2x speed, one 1x speed.
 [234] Palindrome Linked List (Easy) - Combines finding the middle + reversing the second half.
-[142] Linked List Cycle II (Medium) - Math-heavy; find exactly where the cycle begins. -- solved till here --
+[142] Linked List Cycle II (Medium) - Math-heavy; find exactly where the cycle begins.
 
 3. Two Pointer (N-th Node / Intersection)
 Using pointers with a fixed gap or calculating length differences.
-[19] Remove Nth Node From End of List (Medium) - Maintain a gap of N between two pointers.
-[160] Intersection of Two Linked Lists (Easy) - Equalizing lengths by switching heads.
-[61] Rotate List (Medium) - Connect tail to head (make it circular) then break at the new tail.
+[19] Remove Nth Node From End of List (Medium) - Maintain a gap of N between two pointers. -- try again --  
+[160] Intersection of Two Linked Lists (Easy) - Equalizing lengths by switching heads. 
+[61] Rotate List (Medium) - Connect tail to head (make it circular) then break at the new tail.  ( try again)
 
 4. Recursion & Divide and Conquer
 Linked Lists are recursive structures; these problems test that intuition.
-[24] Swap Nodes in Pairs (Medium) - Can be done iteratively, but the recursive solution is elegant.
+[24] Swap Nodes in Pairs (Medium) - Can be done iteratively, but the recursive solution is elegant. 
 [25] Reverse Nodes in k-Group (Hard) - The ultimate test of pointer reversal logic.
-[23] Merge k Sorted Lists (Hard) - Extension of "Merge Two Lists" using Divide & Conquer or a Heap.
+328. Odd Even Linked List     ( try again )
+[23] Merge k Sorted Lists (Hard) - Extension of "Merge Two Lists" using Divide & Conquer or a Heap. -- solved till here --
 5. Advanced Pointer Manipulatio
 Complex rewiring tasks that require careful tracking of prev, curr, and next.
 [138] Copy List with Random Pointer (Medium) - Deep copy logic; often solved by weaving the new nodes into the old list.
-[143] Reorder List (Medium) - Find middle -> Reverse second half -> Merge two halves.
+[143] Reorder List (Medium) - Find middle -> Reverse second half -> Merge two halves.  -- try again --
 [92] Reverse Linked List II (Medium) - Reverse a specific sub-segment of the list.
 [146] LRU Cache (Medium) - Uses a Doubly Linked List + HashMap. Essential for system design interviews.
 
