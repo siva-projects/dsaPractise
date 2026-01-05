@@ -122,8 +122,8 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   - Binary search on answer (search in a custom range) (
     #410 Split Array Largest Sum,   ( try again )
   #875 Koko Eating Bananas,  ( try again )
-  #2305 Fair Distribution of Cookies ( try again as this is a DFS/ Backtracking based question )
-  #1723 Find Minimum Time to Finish All Jobs ( try again as this is a DFS/ Backtracking based question )
+  #2305 Fair Distribution of Cookies ( topic required as this is a DFS/ Backtracking based question )
+  #1723 Find Minimum Time to Finish All Jobs ( topic required as this is a DFS/ Backtracking based question )
   #378 Kth Smallest Element in a Sorted Matrix,( try again )
   - Search in rotated sorted array ( 
   #153 Find Minimum in Rotated Sorted Array)
@@ -132,8 +132,8 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   - Search in 2D matrix (
     #74 Search a 2D Matrix, 
   #240 Search a 2D Matrix II,
-  #1091 Shortest Path in Binary Matrix, ( try again ) ( involves BFS )
-  #1631 Path With Minimum Effort)   ( try again ) ( involves BFS )
+  #1091 Shortest Path in Binary Matrix, ( topic required ) ( involves BFS )
+  #1631 Path With Minimum Effort)   ( topic required ) ( involves BFS )
   - Search with duplicates (
   #540 Single Element in a Sorted Array
 
@@ -162,18 +162,17 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   #76 Minimum Window Substring, ( try again ) 
   #159 Longest Substring with At Most Two Distinct Characters, -- premium required --
   #340 Longest Substring with At Most K Distinct Characters, -- premium required --
-  #992 Subarrays with K Different Integers) ( try again ) 
   - Maximum/minimum sum subarray (
     #209 Minimum Size Subarray Sum,
   #325 Maximum Size Subarray Sum Equals k, -- premium required --
-  #560 Subarray Sum Equals K, -- try again --
-  #862 Shortest Subarray with Sum at Least K, -- try again -- deque involved not hashmap or prefix sum
+  #560 Subarray Sum Equals K, -- topic required -- ( after learning prefix sum)
+  #862 Shortest Subarray with Sum at Least K, -- topic required -- deque involved not hashmap or prefix sum
   #1004 Max Consecutive Ones III) 
   - Longest substring with k-distinct chars (
     #340 Longest Substring with At Most K Distinct Characters, 
   #159 Longest Substring with At Most Two Distinct Characters, -- premium required --
-  #424 Longest Repeating Character Replacement, -- TRY AGAIN -- 
-  #992 Subarrays with K Different Integers, ( try again )
+  #424 Longest Repeating Character Replacement, -- try again -- 
+  #992 Subarrays with K Different Integers,
   #159 Longest Substring with At Most Two Distinct Characters)  -- premium required --
 ***
 *** Linked List questions 
@@ -192,20 +191,20 @@ Used for cycle detection and finding middle elements without knowing the length.
 
 3. Two Pointer (N-th Node / Intersection)
 Using pointers with a fixed gap or calculating length differences.
-[19] Remove Nth Node From End of List (Medium) - Maintain a gap of N between two pointers. -- try again --  
+[19] Remove Nth Node From End of List (Medium) - Maintain a gap of N between two pointers.
 [160] Intersection of Two Linked Lists (Easy) - Equalizing lengths by switching heads. 
-[61] Rotate List (Medium) - Connect tail to head (make it circular) then break at the new tail.  ( try again)
+[61] Rotate List (Medium) - Connect tail to head (make it circular) then break at the new tail.  ( try again) 
 
 4. Recursion & Divide and Conquer
 Linked Lists are recursive structures; these problems test that intuition.
 [24] Swap Nodes in Pairs (Medium) - Can be done iteratively, but the recursive solution is elegant. 
 [25] Reverse Nodes in k-Group (Hard) - The ultimate test of pointer reversal logic.
-328. Odd Even Linked List     ( try again )
+328. Odd Even Linked List
 [23] Merge k Sorted Lists (Hard) - Extension of "Merge Two Lists" using Divide & Conquer or a Heap.
 5. Advanced Pointer Manipulatio
 Complex rewiring tasks that require careful tracking of prev, curr, and next.
-[138] Copy List with Random Pointer (Medium) - ( try again )
-[143] Reorder List (Medium)   -- try again --
+[138] Copy List with Random Pointer (Medium)
+[143] Reorder List (Medium)
 [92] Reverse Linked List II (Medium) -
 [146] LRU Cache (Medium) - Uses a Doubly Linked List + HashMap. ( try again; put this on top priority) - will watch a utube video    -- solved till here -- 
 
@@ -239,6 +238,8 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
 - Problems involving prefix sums/hashes (
   #560 Subarray Sum Equals K, 
 #973 K Closest Points to Origin, 
+#974, 
+#238
 #437 Path Sum III, 
 #523 Continuous Subarray Sum, 
 #325 Maximum Size Subarray Sum Equals k)  

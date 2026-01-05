@@ -1,0 +1,58 @@
+- Prefix Sum is used to calculate sub arrays sum .
+
+Template 
+    - build a prefix Sum array where prefix[right] - prefix[left-1] = sum of indexes from ( left, right);
+    - if left == 0 then prefix[right] will be the sum.
+
+- when dealing with questions such as " 560. Subarray Sum Equals K ", we usually put prefix[0] = 0 or freqMap.out(0,1) to include the single element ( index right )
+- Below is the example 
+
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        freqMap.put(0, 1);
+
+        int sum = 0;
+        int ans = 0;
+        for(int num : nums){
+            sum += num;
+            if(freqMap.containsKey(sum - k)){
+                ans += freqMap.get(sum - k);
+            }
+            freqMap.put(sum, freqMap.getOrDefault(sum, 0) + 1);
+        }
+        return ans;
+    }
+}
+
+
+- Below are the properties that can be used with a prefix sum array
+
+## Prefix Sum Properties: Quick Reference 📋
+**Given:** `prefix[i] = sum(nums[0..i-1])`
+### 1. Range Sum Query O(1)
+sum[l..r] = prefix[r] - prefix[l-1]
+
+**LC:** 303, 304
+### 2. Subarray Sum = k O(n)
+prefix[j] - prefix[i-1] = k
+→ prefix[i-1] = prefix[j] - k
+
+3. Sum % k = 0 O(n)
+prefix[j] % k == prefix[i-1] % k
+
+4. Subarray XOR = k O(n)
+px[j] ^ px[i-1] = k
+→ px[i-1] = px[j] ^ k
+
+5. Length with Sum = k O(n)
+Track earliest index of prefix
+length = j - earliest[prefix[j+1] - k]
+
+
+6. 2D: prefix[i+1][j+1] = sum[0,i][0,j]
+   sum[r1,r2,c1,c2] = inclusion-exclusion 4 terms
+
+7. Exactly K = atMostK - atMostK-1
+
+8. Diff array: range[l,r]+=x → diff[l]+=x, diff[r+1]-=x
