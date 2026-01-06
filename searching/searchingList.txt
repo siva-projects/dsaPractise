@@ -104,7 +104,7 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   #27 Remove Element, 
   #283 Move Zeroes, 
   #448 Find All Numbers Disappeared in an Array, 
-  #414 Third Maximum Number, ( try again )
+  #414 Third Maximum Number,
   #832 Flipping an Image)  
 - Binary Search  
   - Classic binary search on sorted arrays (
@@ -165,7 +165,7 @@ Here is a comprehensive list of searching algorithms with their main techniques 
   - Maximum/minimum sum subarray (
     #209 Minimum Size Subarray Sum,
   #325 Maximum Size Subarray Sum Equals k, -- premium required --
-  #560 Subarray Sum Equals K, -- topic required -- ( after learning prefix sum)
+  #560 Subarray Sum Equals K, -- try again -- ( after learning prefix sum)
   #862 Shortest Subarray with Sum at Least K, -- topic required -- deque involved not hashmap or prefix sum
   #1004 Max Consecutive Ones III) 
   - Longest substring with k-distinct chars (
@@ -221,7 +221,7 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
   #560 Subarray Sum Equals K, 
 #242 Valid Anagram, 
 #383 Ransom Note, 
-#594 Longest Harmonious Subsequence, 
+#594 Longest Harmonious Subsequence, -- solved till here --
 #409 Longest Palindrome)  
 - Two Sum pattern (
   #1 Two Sum, 
