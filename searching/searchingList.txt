@@ -206,7 +206,7 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
 [138] Copy List with Random Pointer (Medium)
 [143] Reorder List (Medium)
 [92] Reverse Linked List II (Medium) -
-[146] LRU Cache (Medium) - Uses a Doubly Linked List + HashMap. ( try again; put this on top priority) - will watch a utube video    -- solved till here -- 
+[146] LRU Cache (Medium) - Uses a Doubly Linked List + HashMap. ( try again; put this on top priority) - will watch a utube video
 
 #
 #
@@ -221,28 +221,29 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
   #560 Subarray Sum Equals K, 
 #242 Valid Anagram, 
 #383 Ransom Note, 
-#594 Longest Harmonious Subsequence, -- solved till here --
+#594 Longest Harmonious Subsequence,
 #409 Longest Palindrome)  
 - Two Sum pattern (
   #1 Two Sum, 
 #167 Two Sum II - Input Array Is Sorted, 
-#170 Two Sum III - Data structure design, 
-#454 4Sum II, 
+#170 Two Sum III - Data structure design, -- premium required --
+#454 4Sum II, -- try again -- 
 #15 3Sum)  
 - Pattern searching with hash (
-  #214 Shortest Palindrome, 
-#438 Find All Anagrams in a String, 
-#28 Implement strStr(), 
-#647 Palindromic Substrings (hash technique variant), 
-#13 Roman to Integer)  
+  #214 Shortest Palindrome,
+#438 Find All Anagrams in a String,  
+#28 Implement strStr(), -- try again --
+#647 Palindromic Substrings (hash technique variant),
+#131. Palindrome Partitioning ( optional )
+#133. Palindrome Partitioning 2 ( optional )
+#13 Roman to Integer -- try again -- 
+)
 - Problems involving prefix sums/hashes (
-  #560 Subarray Sum Equals K, 
-#973 K Closest Points to Origin, 
-#974, 
-#238
-#437 Path Sum III, 
-#523 Continuous Subarray Sum, 
-#325 Maximum Size Subarray Sum Equals k)  
+  #560 Subarray Sum Equals K,  
+#973 K Closest Points to Origin, -- ( learn heap and try again) --
+#974, -- try again -- 
+#238 -- solved till here --
+#523 Continuous Subarray Sum,  -- try again --
 
 ***
 
@@ -288,8 +289,13 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
 #1267 Count Servers that Communicate (conceptual), 
 #1631 Path With Minimum Effort, 
 #794 Valid Tic-Tac-Toe State (conceptual))  
+#437 Path Sum III, 
 
 ***
+
+-- Complete the Dynamic Programming list -- ASAP by Jan 26 EOD
+-- Take One week to learn/revise react -- By Jan 31 
+-- Start applying for JOBS && Revise JS, Node JS, postgresql topics -- From Feb 1
 
 
 #

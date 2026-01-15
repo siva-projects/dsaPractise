@@ -1,0 +1,98 @@
+What we need to learn
+
+- React.js ( react router )
+- revise topics on Node js
+- revise DB related topics
+- DSA ( LOOK in vs code dsa workspace, every folder has a .txt inside it which can be used)
+- system design
+- Next.js ( By the time I start learning this, I should be able to learn all related topics )
+
+- Have been using roadmap.sh to keep track of things.
+
+
+
+
+************************************************************************************************************
+
+1️⃣ Which role should you target?
+
+Target Role:
+👉 SDE-1 (Software Development Engineer – Level 1)
+👉 At product companies / MAANG-level companies
+
+Why this is correct for you:
+
+Current role: System Analyst (enterprise setup)
+Current CTC: ₹8 LPA
+Product companies evaluate by engineering depth, not title
+SDE-1 is the right entry point into product engineering
+
+************************************************************************************************************
+
+2️⃣ What pay can you expect for that role?
+🇮🇳 India (MAANG / Tier-1 Product Companies)
+Role	Typical CTC Range
+SDE-1	₹18 – 30 LPA
+Lower band	₹15 – 18 LPA
+Upper band (strong candidate)	₹25 – 30 LPA
+This is 2–3× your current salary, even at the lower end.
+
+************************************************************************************************************
+
+
+3️⃣ What technical areas must you be confident in?
+✅ MUST-HAVE (Non-Negotiable)
+🔹 Data Structures & Algorithms (70–80% weight)
+
+You should be confident in:
+Arrays, Strings
+Hashing
+Stack, Queue
+Linked List
+Trees, BST
+Recursion
+Dynamic Programming
+Basic Graphs (BFS/DFS)
+
+👉 Ability expected:
+Solve LeetCode Medium consistently
+Write clean, bug-free code
+Explain time & space complexity
+
+************************************************************************************************************
+
+✅ GOOD-TO-HAVE (Light expectation)
+🔹 Basic System Knowledge (NOT heavy design)
+You should be able to explain:
+How a REST API works
+Basic HTTP methods
+Simple DB schema design
+Difference between SQL vs NoSQL (high level)
+Authentication basics (JWT / session — conceptual)
+⚠️ No deep system design expected for SDE-1.
+
+
+❌ NOT REQUIRED (for SDE-1)
+Distributed system design
+Load balancing, sharding
+Kafka, Redis internals
+High-level architecture diagrams
+These are SDE-2+ topics.
+
+************************************************************************************************************
+
+4️⃣ How interviewers will evaluate you
+
+They’ll check:
+
+Can you solve problems independently?
+Can you optimize brute force solutions?
+Can you communicate your approach clearly?
+Are you trainable for large systems?
+
+They will not judge you on:
+Your current title
+Enterprise vs product background
+
+
+************************************************************************************************************
