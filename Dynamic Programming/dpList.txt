@@ -1,10 +1,33 @@
+## Study Schedule
+
+| Date | Focus | Problems | Notes |
+|------|-------|----------|-------|
+| Jan 15 | Warmup DP | Climbing Stairs, N-th Tribonacci, Perfect Squares | DP base case + recursive → memo |
+| Jan 16 | Linear Sequence DP 1 | Min Cost Climbing Stairs, Rope Colorful | Prefix DP + state transition |
+| Jan 17 | Linear Sequence DP 2 | House Robber, Decode Ways | Include/exclude pattern |
+| Jan 18 | Linear Sequence DP 3 | Minimum Cost for Tickets, Brainpower | Multiple subproblems |
+| Jan 19 | Grid DP | Unique Paths I/II, Minimum Path Sum | Grid movement, boundaries |
+| Jan 20 | Grid DP 2 | Square Submatrices, Maximal Square, Dungeon | Table filling order |
+| Jan 21 | Two Sequence DP | LCS, Uncrossed Lines, ASCII Delete Sum | 2D DP for strings |
+| Jan 22 | Two Sequence DP 2 | Edit Distance, Subsequences, Supersequence | DP table understanding |
+| Jan 23 | Interval DP | Palindromic Subsequence, Stone Game VII | Gap strategy |
+| Jan 24 | Interval DP 2 | Substrings, Tree, Printer, Balloons | State transition focus |
+| Jan 25 | LIS + Knapsack | Teams, LIS, Partition Array | Prefix transitions, O(N²) DP |
+| Jan 26 | Knapsack + Review | Subset Sum, Dice, Coin Change, Target Sum | Recap patterns 1-7 |
+
+
 The Ultimate Dynamic Programming Roadmap
-Hey guys, I've seen a lot of discussions about how to study DP in this subreddit. We went through a lot of (almost all) DP problems on leetcode and came up a study list here. I think it pretty much covers all the patterns necessary for leetcode. What's special about the list 1) goes from simpler to more complex patterns 2) categorized by state transition (explained in the video walkthrough) so if you solve the first problem in a pattern you can use a similar state transition to solve others in the list.
+Hey guys, I've seen a lot of discussions about how to study DP in this subreddit. We went through a lot of (almost all) DP problems on leetcode and came up a study list here. I think it pretty much covers all the patterns necessary for leetcode. What's special about the list 
+1. goes from simpler to more complex patterns 
+2. categorized by state transition (explained in the video walkthrough)
+so if you solve the first problem in a pattern you can use a similar state transition to solve others in the list.
 Here's the list and a 1.5 hour video walking through each pattern and solving a question for each pattern: 
 
 https://www.youtube.com/watch?v=9k31KcQmS_U
 
 https://www.youtube.com/playlist?list=PLb3g_Z8nEv1h1w6MI8vNMuL_wrI0FtqE7 ( This playlist also has some useful theory )
+
+https://www.youtube.com/playlist?list=PLVItHqpXY_DCx3O3RqtQtIycL1Turmb01 ( this playlist is  for java coding )
 
 Group 1 (warmup):
 Basic questions to get a feel of DP.
