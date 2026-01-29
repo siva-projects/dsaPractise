@@ -1,0 +1,178 @@
+# 1-Week Graph Roadmap (SDE-1 Focused)
+
+## 🎯 Goal
+Be comfortable with **90% of graph questions** asked in SDE-1 interviews.
+
+---
+
+## 📅 DAY 1 – Graph Basics & Representation
+
+### 📚 Concepts to Learn
+- What is a graph
+- Nodes (vertices) and edges
+- Directed vs Undirected graphs
+- Weighted vs Unweighted graphs
+- **Adjacency List** (most important)
+- Grid as a graph (2D matrix → implicit graph)
+
+### ✅ What You Should Be Able To Do
+- Build an adjacency list from edge input
+- Traverse neighbors of a node
+- Convert grid problems into graph problems
+
+### 💻 LeetCode Practice
+- Find if Path Exists in Graph
+- Find Center of Star Graph
+- Number of Provinces
+
+---
+
+## 📅 DAY 2 – DFS (Depth First Search)
+
+### 📚 Concepts to Learn
+- Recursive DFS
+- Visited array / set
+- DFS on adjacency list
+- DFS on grid
+- Avoiding infinite loops
+
+### ✅ What You Should Be Able To Do
+- Traverse entire graph
+- Count connected components
+- Solve grid problems using DFS
+
+### 💻 LeetCode Practice
+- Number of Islands
+- Flood Fill
+- Max Area of Island
+
+---
+
+## 📅 DAY 3 – BFS (Breadth First Search)
+
+### 📚 Concepts to Learn
+- Queue-based traversal
+- BFS level order
+- BFS vs DFS comparison
+- Shortest path in unweighted graph
+
+### ✅ What You Should Be Able To Do
+- Find shortest path when all edges have equal weight
+- Solve grid problems using BFS
+
+### 💻 LeetCode Practice
+- Rotting Oranges
+- Shortest Path in Binary Matrix
+- 01 Matrix
+
+---
+
+## 📅 DAY 4 – Grid Problems (Highest ROI) ⭐
+
+### 📚 Concepts to Learn
+- Direction arrays
+- Boundary checks
+- Multi-source BFS
+- Marking visited in-place vs separate visited array
+- **Direction array pattern:**
+  ```java
+  int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}};
+  ```
+
+### ✅ What You Should Be Able To Do
+- Solve matrix traversal problems confidently
+- Identify BFS vs DFS choice instantly
+
+### 💻 LeetCode Practice
+- Surrounded Regions
+- Pacific Atlantic Water Flow
+- Word Search
+
+---
+
+## 📅 DAY 5 – Cycle Detection
+
+### 📚 Concepts to Learn
+- Cycle detection in undirected graph (DFS + parent)
+- Cycle detection in directed graph (DFS + recursion stack)
+- Difference between `visited` and `pathVisited`
+
+### ✅ What You Should Be Able To Do
+- Detect cycles correctly
+- Explain why `visited` alone is insufficient for directed graphs
+
+### 💻 LeetCode Practice
+- Course Schedule
+- Graph Valid Tree
+- Redundant Connection
+
+---
+
+## 📅 DAY 6 – Topological Sort (Light but Important)
+
+### 📚 Concepts to Learn
+- What is topological sort
+- When it applies (DAG only)
+- Kahn's Algorithm (BFS-based topo sort)
+- In-degree concept
+
+### ✅ What You Should Be Able To Do
+- Solve dependency problems
+- Detect cycles using in-degree logic
+
+### 💻 LeetCode Practice
+- Course Schedule
+- Course Schedule II
+- Parallel Courses
+
+---
+
+## 📅 DAY 7 – Shortest Path & Revision
+
+### 📚 Concepts to Learn
+- Why BFS fails in weighted graphs
+- Dijkstra's algorithm (conceptual)
+- Priority Queue usage
+- Difference between BFS and Dijkstra
+
+### ✅ What You Should Be Able To Do
+- Identify shortest path problems
+- Choose BFS vs Dijkstra correctly
+
+### 💻 LeetCode Practice
+- Network Delay Time
+- Path With Minimum Effort
+- Cheapest Flights Within K Stops
+
+---
+
+## ⏭️ What You Can Skip for SDE-1
+- A* Algorithm
+- Bellman-Ford
+- Floyd-Warshall
+- Minimum Spanning Tree (Prim / Kruskal)
+- Network Flow
+
+---
+
+## 📋 Interview Cheat Sheet
+
+| Problem Type | Solution |
+|---|---|
+| Grid = Graph | Convert to adjacency list / BFS / DFS |
+| Unweighted shortest path | BFS |
+| Weighted shortest path | Dijkstra |
+| Cycle in directed graph | DFS + recursion stack |
+| Dependencies | Topological Sort |
+| Any graph | Always track visited nodes |
+
+---
+
+## 🚀 Final Advice
+
+### You're Interview-Ready When You Can:
+✅ Confidently code **BFS and DFS**  
+✅ Solve **grid problems** fluently  
+✅ Explain **approach and complexity** clearly  
+
+---

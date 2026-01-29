@@ -242,7 +242,7 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
   #560 Subarray Sum Equals K,  
 #973 K Closest Points to Origin, -- ( learn heap and try again) --
 #974, -- try again -- 
-#238 -- solved till here --
+#238
 #523 Continuous Subarray Sum,  -- try again --
 
 ***
@@ -250,6 +250,7 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
 
 #
 #
+-- currently going through the leetcode.txt questions from Trees folder, once they are completed, will come here to solve
 # 4. Tree and Graph Search  
 - Depth First Search (DFS)  
   - Recursive DFS (
@@ -257,20 +258,20 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
   #104 Maximum Depth of Binary Tree, 
   #110 Balanced Binary Tree, 
   #226 Invert Binary Tree, 
-  #257 Binary Tree Paths)  
+  #257 Binary Tree Paths)
   - Iterative DFS (using stack) (
-    #144 Binary Tree Preorder Traversal, 
+    #144 Binary Tree Preorder Traversal,
   #94 Binary Tree Inorder Traversal, 
-  #145 Binary Tree Postorder Traversal, 
-  #590 N-ary Tree Postorder Traversal, 
-  #589 N-ary Tree Preorder Traversal)  
+  #145 Binary Tree Postorder Traversal,
+  #590 N-ary Tree Postorder Traversal,
+  #589 N-ary Tree Preorder Traversal)
 - Breadth First Search (BFS)  
   - Level order traversal (
     #102 Binary Tree Level Order Traversal, 
   #107 Binary Tree Level Order Traversal II, 
   #199 Binary Tree Right Side View, 
   #637 Average of Levels in Binary Tree, 
-  #314 Binary Tree Vertical Order Traversal)  
+  #314 Binary Tree Vertical Order Traversal)    -- solved till here -- ( needs premium ) 
   - Bidirectional BFS (
     #127 Word Ladder, 
   #126 Word Ladder II, 

@@ -33,7 +33,7 @@ Question 5 - https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 - navigate to above question link, and there ans can be found in the submissions..
 - Ans can be found in two approaches using BFS approach and using BFS approach along with Recursion...
 
-Question 6 - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+Question 6 - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/  ( find O(1) space solution)
 - navigate to above question link, and there ans can be found in the submissions..
 - used the BFS approach here as well...
 
@@ -73,21 +73,21 @@ Question 5 - https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 - navigate to above question link, and there ans can be found in the submissions..
 - used the POST ORDER Traverse in  DFS to arrive at a solutions
 
-Question 6 - https://leetcode.com/problems/validate-binary-search-tree/
+Question 6 - https://leetcode.com/problems/validate-binary-search-tree/ -- try again --
 - navigate to above question link, and there ans can be found in the submissions..
 - used the POST ORDER Traverse in  DFS to arrive at a solutions
 
-Question 7 - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/ 
+Question 7 - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/ -- try again -- 
 
 Question 8 - https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 - navigate to above question link, and there ans can be found in the submissions..
 - used the In ORDER Traverse in  DFS to arrive at a solutions
 
-Question 9 - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+Question 9 - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ -- solved till here -- 
 - navigate to above question link, and there ans can be found in the submissions..
 - used the arrays and  Traversal related topics to arrive at a solutions
 
-Question 10 - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
+Question 10 - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/ -- try again -- 
 - navigate to above question link, and there ans can be found in the submissions..
 - used preorder to solve the question 
 
@@ -99,6 +99,6 @@ Question 12 - https://leetcode.com/problems/sum-root-to-leaf-numbers/
 - navigate to above question link, and there ans can be found in the submissions..
 - used preorder to solve the question 
 
-Question 13 - https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
+Question 13 - https://leetcode.com/problems/binary-tree-maximum-path-sum/description/  -- try again --
 - navigate to above question link, and there ans can be found in the submissions..
 - used postorder to solve the question 
