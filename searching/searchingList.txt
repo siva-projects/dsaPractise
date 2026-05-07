@@ -1,5 +1,11 @@
 Here is a comprehensive list of searching algorithms with their main techniques and sub-techniques for practice:
 
+Basic Searching Algorithms
+Two-Pointer Techniques
+Hashing Based Search
+Tree search
+String Searching Algorithms
+
 ### 1. Basic Searching Algorithms
 - **Linear Search**
   - Simple scan
@@ -145,7 +151,7 @@ Here is a comprehensive list of searching algorithms with their main techniques 
 #15 3Sum, Sum,  
 #16 3Sum Closest,  -- try again --
 #26 Remove Duplicates from Sorted Array,
-#42 Trapping Rain Water)  -- try again --
+#42 Trapping Rain Water)  -- try again -- 
 - Duplicate Skipping (to avoid repeating results) (
   #15 3Sum,  
 #26 Remove Duplicates from Sorted Array, 
@@ -409,3 +415,105 @@ Complex rewiring tasks that require careful tracking of prev, curr, and next.
 #79 Word Search)  
 
 ***
+
+
+
+
+
+Perfect 🔥 — these three will really cement the monotonic stack pattern for you, step by step.
+
+🟢 1. Easy
+👉 LeetCode 496: Next Greater Element I
+
+🟡 2. Easy → Medium
+👉 LeetCode 739: Daily Temperatures
+
+🟠 3. Medium
+👉 LeetCode 503: Next Greater Element II
+
+
+
+Same monotonic idea, but extended
+🧩 Learning progression (important)
+Problem	What you master
+1475. Final Prices With a Special Discount in a Shop (Easy)
+496. Next Greater Element I (Easy)
+503. Next Greater Element II (Medium)
+1019. Next Greater Node In Linked List (Medium)
+456. 132 Pattern (Medium)
+1504. Count Submatrices With All Ones (Medium)
+1673. Find the Most Competitive Subsequence (Medium)
+907. Sum of Subarray Minimums (Medium)
+1856. Maximum Subarray Min-Product (Medium)
+1124. Longest Well-Performing Interval (Medium)
+402. Remove K Digits (Medium)
+84. Largest Rectangle in Histogram (Hard)
+85. Maximal Rectangle (Hard)
+
+
+
+
+While solving, always ask:
+
+“Am I maintaining increasing or decreasing order?”
+
+Next greater → Decreasing stack
+Next smaller → Increasing stack
+
+
+Before Leetcode #2305, 
+🟢 Level 1 — Learn pure backtracking
+Subsets → 78
+Permutations → 46
+🟡 Level 2 — Add constraints + pruning
+Combination Sum → 39
+Partition Equal Subset Sum → 416
+🟠 Level 3 — Distribution / bucket problems
+Partition to K Equal Sum Subsets → 698
+🔴 Target problem
+Fair Distribution of Cookies → 2305
+
+
+
+
+
+Before Solving 1631 and 1091
+
+Phase 1: Get super comfortable with BFS in grids
+Start here—no tricks, just movement.
+LeetCode 733
+LeetCode 200
+LeetCode 994
+
+🎯 Goal:
+Move in 4/8 directions
+Understand BFS levels = shortest path (unweighted)
+
+🟡 Phase 2: Shortest path thinking
+Now we move toward what 1091 actually is.
+LeetCode 542
+LeetCode 1926
+
+🎯 Goal:
+Recognize: BFS = shortest path when all edges cost = 1
+
+🔵 Phase 3: Introduce “weights” (this is where 1631 lives)
+Now things get interesting.
+LeetCode 778
+👉 This is THE bridge problem to 1631.
+You’ll see:
+You can solve using Dijkstra
+OR Binary Search on Answer
+
+🔴 Phase 4: Binary Search on Answer (core skill)
+Before 1631, sharpen this pattern:
+LeetCode 875
+LeetCode 1011
+🎯 Goal:
+Build the “guess + check + monotonic” instinct
+🚀 Now you're ready
+
+✅ Attempt:
+LeetCode 1091
+🔥 Then:
+LeetCode 1631

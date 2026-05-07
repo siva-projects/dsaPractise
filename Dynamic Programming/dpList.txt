@@ -5,7 +5,6 @@
 | Jan 15 | Warmup DP | Climbing Stairs, N-th Tribonacci, Perfect Squares | DP base case + recursive → memo |
 | Jan 16 | Linear Sequence DP 1 | Min Cost Climbing Stairs, Rope Colorful | Prefix DP + state transition |
 | Jan 17 | Linear Sequence DP 2 | House Robber, Decode Ways | Include/exclude pattern |
--- TRY PERFECT SQUARES TMRW --
 | Jan 18 | Linear Sequence DP 3 | Minimum Cost for Tickets, Brainpower | Multiple subproblems |
 | Jan 19 | Grid DP | Unique Paths I/II, Minimum Path Sum | Grid movement, boundaries |
 | Jan 20 | Grid DP 2 | Square Submatrices, Maximal Square, Dungeon | Table filling order |
@@ -16,6 +15,8 @@
 | Jan 25 | LIS + Knapsack | Teams, LIS, Partition Array | Prefix transitions, O(N²) DP |
 | Jan 26 | Knapsack + Review | Subset Sum, Dice, Coin Change, Target Sum | Recap patterns 1-7 |
  --> this is also a concept....Bitwise DP / Binary DP
+
+DP + Monotonic Stack : Maximal Rectangle,
 
 // not needed for a SDE 1 Job
 Day X: Tree DP
@@ -161,3 +162,33 @@ https://leetcode.com/problems/binary-tree-cameras/
 
 
 Also get the list here: https://algo.monster/dp
+
+
+
+
+
+
+
+-- what I've covered
+
+1. 1D DP - "Ending at i" pattern - ( ex- LIS )
+2. 1D DP - " Choose/Not Choose " - ( ex - House Robber )
+3. 2D Grid DP - Forward Building - ( ex - Maximal Square)
+4. 2D Grid DP - Backward Thinking -( ex - Dungeon Game )
+5. Histogram + DP Hybrid ( not learnt ) - ( ex - Maximal Rectangle )
+
+
+Where You Currently Stand
+Based on what we’ve done:
+
+You are comfortably at:
+Linear DP ✔
+Basic Grid DP ✔
+Reverse Grid DP ✔ (with effort)
+
+You have NOT yet fully explored:
+
+Knapsack style
+Partition style
+Interval DP
+That’s your next frontier.
